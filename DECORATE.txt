@@ -1,0 +1,1 @@
+#include "decorate/weapons/baseweapon.txt"
