@@ -1,0 +1,73 @@
+actor BPeeestolMag : Ammo //for the player start
+{
+
+Inventory.Maxamount 10
++IGNORESKILL
++UNDROPPABLE
+
+}
+
+ACTOR BPUSP : BPWeapon replaces Pistol
+{
+	//Weapon.AmmoUse 1
+	Weapon.AmmoGive 20
+	Weapon.AmmoType "Clip"
+	Weapon.Ammotype2 "BPeeestolMag"
+	Weapon.Ammogive2 0
+	Obituary "$OB_USP"
+	+WEAPON.WIMPY_WEAPON
+	+WEAPON.NOALERT //added for the reason of reloads
+	+WEAPON.ALLOW_WITH_RESPAWN_INVUL
+	Inventory.Pickupmessage "$GOT_USP"
+	weapon.slotnumber 2
+	Tag "$TAG_USP"
+	Radius 20
+	Height 16
+	States
+	{
+	Ready:
+		BPIS A 1 A_WeaponReady
+		Loop
+	Deselect:
+		BPIS A 1 A_Lower
+		Loop
+	Select:
+		BPIS A 1 A_Raise
+		Loop
+	Fire:
+		TNT1 A 0 A_Jumpifinventory("BPeeestolMag",1,1) //this part will check if the gun is empty and automatically reload if it is 
+		goto altfire
+		BPIS A 0 A_AlertMonsters
+		BPIS A 0 A_TakeInventory("BPeeestolMag",1)
+		BPIS B 2 BRIGHT A_FirePistol
+		BPIS CDEFG 2
+		BPIS A 2 A_ReFire
+		Goto Ready
+	Flash:
+		BPIS B 3 Bright A_Light1
+		Goto LightDone
+		BPIS B 3 Bright A_Light1
+		Goto LightDone
+
+//hurray for gross hacks! courtesy of Joblez
+	Altfire:	
+		TNT1 A 0 A_JumpIfInventory("Clip",1,1) //don't reload if you don't have any clip ammo left
+		Goto Ready
+		TNT1 A 0 A_JumpIfInventory("BPeeestolMag",10,"Ready") //don't reload if the gun is full
+		BPIR ABCDEFGHIJKLMOPQRST 2
+	Reloadmath: //the logic part
+		TNT1 A 0 A_JumpIfInventory("BPeeestolMag", 10, "ReloadFinish") //this is the check for ammo, once it's full it finishes
+		TNT1 A 0 A_JumpIfInventory("clip", 1, 1)
+		Goto ReloadFinish			
+		TNT1 A 0 A_GiveInventory("BPeeestolMag", 1) //these two will add and remove the appropriate amount from clip to weapon magazine
+		TNT1 A 0 A_Takeinventory("Clip",1,TIF_NOTAKEINFINITE)
+		Goto Reloadmath
+		ReloadFinish: //resolves to the end
+		BPIR UVWY 2
+		Goto ready	
+
+ 	Spawn:
+		PIST A -1
+		Stop
+	}
+}

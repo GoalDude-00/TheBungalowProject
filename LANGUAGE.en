@@ -1,0 +1,14 @@
+[en enc enu eng eni ena enz default]
+//LANGUAGE!!!
+
+GOT_USP="You got the USP! ...isn't this your starting weapon already?";
+GOT_SPAS="You got the SPAS-12!";
+GOT_AK5="You got the AK-5!";
+
+OB_USP="%k has sent %o packing after caps.";
+OB_SPAS="%o sold half of %p life at %k.";
+OB_AK5="meow.";
+
+TAG_USP="USP";
+TAG_SPAS="SPAS-12";
+TAG_AK5="AK5";

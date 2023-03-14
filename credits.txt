@@ -1,0 +1,35 @@
+credits:
+
+	sprites:
+
+		treyarch - assault rifle
+		infinity ward - pistol, shotgun
+		raven software - pistol, shotgun 
+		sledgehammer - ssg, plasma rifle
+		id software - hands
+		midway - rocket launcher, plasma rifle
+
+	textures:
+
+		mechadon - skies
+
+	music:
+		
+
+	sounds:
+
+	mod team:
+
+		GoalDude-00 / Deii - Project Lead
+		Joblez - Lead Sprite Artist, Mapper
+		TheRailgunner - Mapper
+		Skelegant - Mapper
+		Beansguy - Mapper
+		Renegade4339 - Programmer (weapons)
+		DR_Cosmobyte - Sound Design
+		LossForWords - Sprite Artist
+		JDRedAlert - TBA
+		XSlayer 300 - TBA
+		PotetoBloke - TBA
+		YukesVonFaust - TBA
+

@@ -1,4 +1,4 @@
-actor Baseweapon: Doomweapon replaces DoomWeapon
+actor BPWeapon: DoomWeapon
 {
         Weapon.BobRangeX 0.4
         Weapon.BobRangeY 0.4

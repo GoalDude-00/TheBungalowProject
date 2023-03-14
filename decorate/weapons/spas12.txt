@@ -1,0 +1,37 @@
+ACTOR BPShotgun : BPWeapon replaces Shotgun
+{
+	Weapon.SelectionOrder 1300
+	Weapon.AmmoUse 1
+	Weapon.AmmoGive 8
+	Weapon.AmmoType "Shell"
+	Inventory.PickupMessage "$GOT_SPAS"
+	Obituary "$OB_SPAS"
+	Tag "$TAG_SPAS"
+	weapon.slotnumber 3
+	States
+	{
+	Ready:
+		BGSH A 1 A_WeaponReady
+		Loop
+	Deselect:
+		BGSH A 1 A_Lower
+		Loop
+	Select:
+		BGSH A 1 A_Raise
+		Loop
+	Fire:
+		BGSF A 2 BRIGHT A_FireShotgun
+		BGSF BCDEF 2
+		BGSP AB 2
+		BGSP CDEFGHIJKLM 2
+		BGSH A 2 A_ReFire
+		Goto Ready
+	Flash:
+		BGSF A 2 Bright A_Light1
+		BGSF B 2 Bright A_Light2
+		Goto LightDone
+	Spawn:
+		SHOT A -1
+		Stop
+	}
+}	

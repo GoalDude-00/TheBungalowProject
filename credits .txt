@@ -1,7 +1,0 @@
-sprite credits:
-
-treyarch
-infinity ward
-sledgehammer
-id software
-midway
