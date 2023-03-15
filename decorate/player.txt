@@ -9,7 +9,7 @@ ACTOR BPlayer : Doomplayer
   Player.Weaponslot 2, "BPPistol"
   Player.Weaponslot 3, "BPShotgun"
   Player.Weaponslot 4, "BPAR"
-  Player.Weaponslot 5, ""
+  Player.Weaponslot 5, "BPRocketLauncher"
   Player.Weaponslot 6, ""
   
 }

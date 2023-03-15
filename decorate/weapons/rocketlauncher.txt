@@ -1,0 +1,39 @@
+actor BPRocketLauncher : BPWeapon replaces rocketlauncher
+{
+  Weapon.SelectionOrder 2500
+  Weapon.AmmoUse 1
+  Weapon.AmmoGive 2
+  Weapon.AmmoType "RocketAmmo"
+  +WEAPON.NOAUTOFIRE
+  Inventory.PickupMessage "$GOTLAUNCHER"
+  Tag "$TAG_ROCKETLAUNCHER"
+  Weapon.Slotnumber 5
+  States
+  {
+  Ready:
+    BGRL A 1 A_WeaponReady
+    Loop
+  Deselect:
+    BGRL A 1 A_Lower
+    Loop
+  Select:
+    BGRL A 1 A_Raise
+    Loop
+  Fire:
+    BGRL B 2 BRIGHT A_GunFlash
+    BGRL C 2 BRIGHT A_FireMissile
+	BGRL D 2 BRIGHT
+	BGRL DE 2
+	BGRL FGH 3
+    BGRL A 0 A_ReFire
+    Goto Ready
+  Flash:
+    TNT1 A 3 Bright A_Light1
+    TNT1 B 4 Bright
+    TNT1 CD 4 Bright A_Light2
+    Goto LightDone
+  Spawn:
+    PICK F -1
+    Stop
+  }
+}
