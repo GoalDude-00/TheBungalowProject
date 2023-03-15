@@ -1,3 +1,4 @@
 #include "decorate/weapons/baseweapon.txt"
 #include "decorate/weapons/USP.txt"
 #include "decorate/weapons/SPAS12.txt"
+#include "decorate/weapons/ak5.txt"

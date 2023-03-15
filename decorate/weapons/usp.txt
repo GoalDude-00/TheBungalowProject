@@ -44,9 +44,9 @@ ACTOR BPUSP : BPWeapon replaces Pistol
 		BPIS A 2 A_ReFire
 		Goto Ready
 	Flash:
-		BPIS B 3 Bright A_Light1
+		TNT1 B 3 Bright A_Light1
 		Goto LightDone
-		BPIS B 3 Bright A_Light1
+		TNT1 B 3 Bright A_Light1
 		Goto LightDone
 
 //hurray for gross hacks! courtesy of Joblez

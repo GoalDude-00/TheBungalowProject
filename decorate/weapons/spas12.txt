@@ -27,8 +27,8 @@ ACTOR BPShotgun : BPWeapon replaces Shotgun
 		BGSH A 2 A_ReFire
 		Goto Ready
 	Flash:
-		BGSF A 2 Bright A_Light1
-		BGSF B 2 Bright A_Light2
+		TNT1 A 2 Bright A_Light1
+		TNT1 B 2 Bright A_Light2
 		Goto LightDone
 	Spawn:
 		PICK C -1
