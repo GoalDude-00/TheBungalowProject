@@ -1,0 +1,6 @@
+actor AK5 : BPweapon replaces Chaingun
+{
+
+
+
+}

@@ -67,7 +67,7 @@ ACTOR BPUSP : BPWeapon replaces Pistol
 		Goto ready	
 
  	Spawn:
-		PIST A -1
+		PICK B -1
 		Stop
 	}
 }

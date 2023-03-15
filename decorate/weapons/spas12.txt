@@ -31,7 +31,7 @@ ACTOR BPShotgun : BPWeapon replaces Shotgun
 		BGSF B 2 Bright A_Light2
 		Goto LightDone
 	Spawn:
-		SHOT A -1
+		PICK C -1
 		Stop
 	}
 }	
