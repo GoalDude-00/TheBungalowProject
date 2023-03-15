@@ -7,4 +7,5 @@ actor BPWeapon: DoomWeapon
 		inventory.pickupsound "weapon/pickup"	
 		Weapon.UpSound "Weapon/select"
 	    Tag "?????????"  	
+		Inventory.Pickupsound "weapons/shotgr"
 }

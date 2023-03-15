@@ -8,3 +8,4 @@
 #include "decorate/weapons/SPAS12.txt"
 #include "decorate/weapons/ak5.txt"
 #include "decorate/weapons/rocketlauncher.txt"
+#include "decorate/weapons/staff.txt"
