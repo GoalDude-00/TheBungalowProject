@@ -18,6 +18,11 @@ credits:
 
 	sounds:
 
+		Duke Nukem Forever
+		Soldier of Fortune
+		S.T.A.L.K.E.R. - Shadow of Chernobyl
+		Quake 2
+
 	mod team:
 
 		GoalDude-00 / Deii - Project Lead
