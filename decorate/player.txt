@@ -1,0 +1,17 @@
+ACTOR BPlayer : Doomplayer
+{
+  Player.DisplayName "Player" 
+  Player.Startitem "BPFist"
+  Player.Startitem "BPPistol"
+  player.startitem "Clip", 45 
+  player.soundclass "player"  
+  Player.Weaponslot 1, ""  
+  Player.Weaponslot 2, "BPPistol"
+  Player.Weaponslot 3, "BPShotgun"
+  Player.Weaponslot 4, "BPAR"
+  Player.Weaponslot 5, ""
+  Player.Weaponslot 6, ""
+  
+}
+
+

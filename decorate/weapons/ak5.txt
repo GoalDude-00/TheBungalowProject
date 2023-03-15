@@ -1,4 +1,4 @@
-ACTOR AK5 : BPWeapon replaces Chaingun
+ACTOR BPAR : BPWeapon replaces Chaingun
 {
 		Weapon.SelectionOrder 700
 		Weapon.AmmoUse 1

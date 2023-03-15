@@ -1,4 +1,9 @@
+//Player
+#include "decorate/player.txt"
+
+//Weapons
 #include "decorate/weapons/baseweapon.txt"
+#include "decorate/weapons/fist.txt"
 #include "decorate/weapons/USP.txt"
 #include "decorate/weapons/SPAS12.txt"
 #include "decorate/weapons/ak5.txt"
