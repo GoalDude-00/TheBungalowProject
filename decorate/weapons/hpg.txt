@@ -40,6 +40,7 @@ ACTOR BPPlasmaBall : PlasmaBall
 {
 	RenderStyle Normal
 	Alpha 1
+	Scale 0.5
 	SeeSound "weapons/plasmaf"
 	DeathSound "weapons/plasmax"
 	Obituary "$OB_HPG"
