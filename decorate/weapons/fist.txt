@@ -28,7 +28,6 @@ ACTOR BPFist : BPWeapon
     BSOP A 1 A_Raise
     Loop
   Fire:
-		BSOP B 2
 	  LeftSwing:
 		TNT1 A 0 A_JumpifInventory("PowerStrength",1,"LeftSwingZerk")
 		TNT1 A 0 A_JumpifInventory("fisttoken",1,"RightSwing")
