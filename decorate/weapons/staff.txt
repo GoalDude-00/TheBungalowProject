@@ -5,9 +5,9 @@ actor BPStaff : BPWeapon replaces Chainsaw
   Weapon.Slotnumber 1
   Weapon.UpSound ""
   Weapon.ReadySound ""
-  Inventory.PickupMessage "$GOTCHAINSAW"
-  Obituary "$OB_MPCHAINSAW"
-  Tag "$TAG_CHAINSAW"
+  Inventory.PickupMessage "$GOT_STAFF"
+  Obituary "$OB_STAFF"
+  Tag "$TAG_STAFF"
   +WEAPON.MELEEWEAPON
   States
   {
