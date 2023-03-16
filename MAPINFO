@@ -1,0 +1,14 @@
+map MAP01 "carbonated beverage, pressurized"
+{
+   sky1 = "PLTSKY02"
+   music = "DNKKNG2"
+   cluster = 20
+   next = "MAP02"
+} 
+
+map MAP02 "scrungo base 3"
+{
+   sky1 = "PLTSKY02"
+   music = "DNKKNG3"
+   cluster = 20
+} 
