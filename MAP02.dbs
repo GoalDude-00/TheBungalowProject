@@ -27,8 +27,8 @@ maps
 				requiredarchives = "";
 			}
 		}
-		viewpositiony = 446.2472f;
-		viewpositionx = -769.6038f;
+		viewpositiony = 540.1039f;
+		viewpositionx = 344.0866f;
 		
 		testprecommand
 		{
@@ -52,7 +52,7 @@ maps
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 6.645056f;
+		viewscale = 0.3707848f;
 		
 		reloadresourceprecommand
 		{
@@ -63,7 +63,7 @@ maps
 		defaulttoptexture = "STRG2VN";
 		overridebottomtexture = false;
 		defaultbottomtexture = "STRG2VN";
-		defaultfloortexture = "CEIL4_2";
+		defaultfloortexture = "GRAYP13";
 		overrideceilheight = false;
 		overridebrightness = false;
 		

@@ -31,7 +31,7 @@ ACTOR BPFist : BPWeapon
 	  LeftSwing:
 		TNT1 A 0 A_JumpifInventory("PowerStrength",1,"LeftSwingZerk")
 		TNT1 A 0 A_JumpifInventory("fisttoken",1,"RightSwing")
-		BFIL A 1
+		BFIL A 1 A_Playsound("skeleton/swing", CHAN_AUTO)
 		BFIL B 1 A_Punch
 		BFIL C 1
 		BFIL D 1
@@ -43,7 +43,7 @@ ACTOR BPFist : BPWeapon
 		BSOP B 1
 		Goto Ready
 	  Rightswing:
-		BFIR A 1
+		BFIR A 1 A_Playsound("skeleton/swing", CHAN_AUTO)
 		BFIR B 1 A_Punch
 		BFIR C 1
 		BFIR D 1
@@ -58,7 +58,7 @@ ACTOR BPFist : BPWeapon
 	  //WHAT YOU LOOKIN' AT?
 	  LeftSwingZerk:
 		TNT1 A 0 A_JumpifInventory("fisttoken",1,"RightSwingZerk")
-		BSTL A 1
+		BSTL A 1 A_Playsound("skeleton/swing", CHAN_AUTO)
 		BSTL B 1 A_Punch
 		BSTL C 2
 		BSTL D 2
@@ -70,7 +70,7 @@ ACTOR BPFist : BPWeapon
 		BSOP B 1
 		Goto Ready
 	  RightSwingZerk:
-		BSTR A 1
+		BSTR A 1 A_Playsound("skeleton/swing", CHAN_AUTO)
 		BSTR B 1 A_Punch
 		BSTR C 2
 		BSTR D 2
