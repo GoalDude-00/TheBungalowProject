@@ -59,7 +59,7 @@ ACTOR BPAR : BPWeapon replaces Chaingun
 		Goto LightDone
 
 		Spawn:
-			PICK D -1
+			PICK E -1
 			stop
    }
 }

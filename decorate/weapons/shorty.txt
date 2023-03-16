@@ -19,30 +19,26 @@ ACTOR BPSuperShotgun : BPWeapon replaces SuperShotgun
 		BSSI A 1 A_Raise
 		Loop
 	Fire:
-		BSSI A 3
 		BSSF A 0 A_FireShotgun2
 		BSSF AB 1 BRIGHT
 		BSSF CDEFG 1
-		BSSI A 9
-		BSSI A 1 A_CheckReload
-		BSSR A 1
-		BSSR B 1
-		BSSR C 2 A_OpenShotgun2
-		BSSR D 1
-		BSSR EFGH 1
+		BSSI A 6
+		BSSI A 0 A_CheckReload
+		BSSR A 2
+		BSSR B 2
+		BSSR C 2 A_Playsound("weapons/sshoto", CHAN_WEAPON)
+		BSSR D 2
+		BSSR EFGH 2
 		BSSR I 2
-		BSSR J 1
-		BSSR K 2 A_LoadShotgun2
-		BSSR L 1
+		BSSR J 2
+		BSSR K 2 A_Playsound("weapons/sshotl", CHAN_WEAPON)
+		BSSR L 2
 		BSSR MNO 2
-		BSSR P 0 A_CloseShotgun2
-		BSSR PQRSTUV 1
-		BSSI A 5 A_ReFire
+		BSSR P 0 A_Playsound("weapons/sshotc", CHAN_WEAPON)
+		BSSR PQRS 2
+		BSSR TUV 2
+		BSSI A 2 A_ReFire
 		Goto Ready
-	// unused states
-		SHT2 B 7
-		SHT2 A 3
-		Goto Deselect
 	Flash:
 		TNT1 I 4 Bright A_Light1
 		TNT1 J 3 Bright A_Light2

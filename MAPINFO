@@ -9,6 +9,6 @@ map MAP01 "carbonated beverage, pressurized"
 map MAP02 "scrungo base 3"
 {
    sky1 = "PLTSKY02"
-   music = "DNKKNG3"
+   music = "BLOOD7"
    cluster = 20
 } 
