@@ -7,7 +7,7 @@ maps
 	
 	MAP02
 	{
-		defaultwalltexture = "STARG3";
+		defaultwalltexture = "STRG2VN";
 		overridemiddletexture = false;
 		defaultceiltexture = "FLOOR0_3";
 		overrideceiltexture = false;
@@ -27,8 +27,8 @@ maps
 				requiredarchives = "";
 			}
 		}
-		viewpositiony = 663.3768f;
-		viewpositionx = 173.9388f;
+		viewpositiony = 347.6403f;
+		viewpositionx = 1229.901f;
 		
 		testprecommand
 		{
@@ -48,11 +48,11 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 16;
+			gridsize = 32;
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 0.5647997f;
+		viewscale = 0.2570767f;
 		
 		reloadresourceprecommand
 		{
@@ -60,9 +60,9 @@ maps
 			exitcodeiserror = true;
 			stderriserror = true;
 		}
-		defaulttoptexture = "STARG3";
+		defaulttoptexture = "STRG2VN";
 		overridebottomtexture = false;
-		defaultbottomtexture = "STARG3";
+		defaultbottomtexture = "STRG2VN";
 		defaultfloortexture = "FLAT5_4";
 		overrideceilheight = false;
 		overridebrightness = false;
