@@ -4,8 +4,7 @@ actor BPWeapon: DoomWeapon
         Weapon.BobRangeY 0.4
         Weapon.BobSpeed 1.5
         Weapon.BobStyle "Inverse"
-		inventory.pickupsound "weapon/pickup"	
+		inventory.pickupsound "weapons/shotgr"	
 		Weapon.UpSound "Weapon/select"
 	    Tag "?????????"  	
-		Inventory.Pickupsound "weapons/shotgr"
 }

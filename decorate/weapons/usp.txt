@@ -36,7 +36,7 @@ ACTOR BPPistol : BPWeapon replaces Pistol
 		Loop
 	Fire:
 		TNT1 A 0 A_Jumpifinventory("BPeeestolMag",1,1) //this part will check if the gun is empty and automatically reload if it is 
-		goto Reloading
+		goto Altfire
 		BPIS A 0 A_AlertMonsters
 		BPIS A 0 A_TakeInventory("BPeeestolMag",1)
 		BPIS B 2 BRIGHT A_FirePistol
@@ -51,16 +51,15 @@ ACTOR BPPistol : BPWeapon replaces Pistol
 		Goto LightDone
 
 //hurray for gross hacks! courtesy of Joblez
-	Altfire:
-	Reloading:
+	Altfire:	
 		TNT1 A 0 A_JumpIfInventory("Clip",1,1) //don't reload if you don't have any clip ammo left
 		Goto Ready
 		TNT1 A 0 A_JumpIfInventory("BPeeestolMag",10,"Ready") //don't reload if the gun is full
 		BPIR ABCD 1
-		TNT1 A 0 A_PlaySound("weapons/sshoto", CHAN_WEAPON)
+		TNT1 A 0 A_PlaySound("weapons/sshoto",CHAN_AUTO)
 		BPIR EFGHIJKLMN 2
-		TNT1 A 0 A_PlaySound("weapons/sshotc", CHAN_WEAPON)
-		BPIR OPQRST 2
+		TNT1 A 0 A_PlaySound("weapons/sshotc",CHAN_AUTO)
+		BPIR OP 2
 	Reloadmath: //the logic part
 		TNT1 A 0 A_JumpIfInventory("BPeeestolMag", 10, "ReloadFinish") //this is the check for ammo, once it's full it finishes
 		TNT1 A 0 A_JumpIfInventory("clip", 1, 1)
@@ -69,6 +68,7 @@ ACTOR BPPistol : BPWeapon replaces Pistol
 		TNT1 A 0 A_Takeinventory("Clip",1,TIF_NOTAKEINFINITE)
 		Goto Reloadmath
 		ReloadFinish: //resolves to the end
+		BPIR QRST 2
 		BPIR UVWY 1
 		Goto ready	
 

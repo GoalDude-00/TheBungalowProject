@@ -1,14 +1,29 @@
 [en enc enu eng eni ena enz default]
 //LANGUAGE!!!
 
+GOT_STAFF="An enchanted staff! Find some conductors.";
 GOT_USP="You got the battle pistol! ...isn't this your starting weapon already?";
-GOT_SPAS="You got the assault shotgun!";
+GOT_SPAS="You got the battle shotgun!";
+GOT_SHORTY="You got the shorty!";
 GOT_AK5="You got the battle rifle!";
+GOT_HPG="You got the hellish plasma gun!";
 
-OB_USP="%k has sent %o packing after caps.";
+OB_BFIST="%o gave %k the stink eye, and then regrets it."; //poteto's obit
+OB_STAFF="%k gave %o the magic bonk.";
+OB_USP="%k has sent %o packing after throwing enough caps.";
 OB_SPAS="%o sold half of %p life at %k.";
+OB_SHORTY="%o got thwacked by %k's short stick.";
 OB_AK5="%o became swiss cheese thanks to %k.";
+OB_HPG="%o was turned into bread by %k.";
 
+TAG_STAFF="Enchanted Staff";
 TAG_USP="Battle Pistol";
-TAG_SPAS="Assault Shotgun";
+TAG_SPAS="Battle Shotgun";
+TAG_SHORTY="Shorty";
 TAG_AK5="Battle Rifle";
+TAG_HPG="Hellish Plasma Gun";
+
+//strings to be held for review
+GOT_BROCKET="You got the assault rocket launcher!";
+OB_BROCKET="%o was STILL splattered by %k's rocket.";
+TAG_BROCKET="Assault Rocket Launcher";

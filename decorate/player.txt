@@ -1,16 +1,16 @@
 ACTOR BPlayer : Doomplayer
 {
   Player.DisplayName "Player" 
-  Player.Startitem "BPFist"
   Player.Startitem "BPPistol"
+  Player.Startitem "BPFist"
   player.startitem "Clip", 45 
   player.soundclass "player"  
-  Player.Weaponslot 1, "BPStaff"  
+  Player.Weaponslot 1, "BPFist","BPStaff"
   Player.Weaponslot 2, "BPPistol"
-  Player.Weaponslot 3, "BPShotgun"
+  Player.Weaponslot 3, "BPShotgun","BPSuperShotgun"
   Player.Weaponslot 4, "BPAR"
   Player.Weaponslot 5, "BPRocketLauncher"
-  Player.Weaponslot 6, ""
+  Player.Weaponslot 6, "BPHPG"
   
 }
 
