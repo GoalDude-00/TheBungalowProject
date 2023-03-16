@@ -11,7 +11,7 @@ ACTOR BPFist : BPWeapon
   Weapon.SelectionOrder 3700
   Weapon.Slotnumber 1
   Weapon.Kickback 100
-  Obituary "$OB_MPFIST"
+  Obituary "$OB_BFIST" //brettyfist
   Tag "$TAG_FIST"
   +WEAPON.WIMPY_WEAPON
   +WEAPON.MELEEWEAPON
@@ -28,12 +28,14 @@ ACTOR BPFist : BPWeapon
     BSOP A 1 A_Raise
     Loop
   Fire:
-	  Leftswing:
-		TNT1 A 0 A_JumpifInventory("fisttoken",1,"Rightswing")
+		BSOP B 2
+	  LeftSwing:
+		TNT1 A 0 A_JumpifInventory("PowerStrength",1,"LeftSwingZerk")
+		TNT1 A 0 A_JumpifInventory("fisttoken",1,"RightSwing")
 		BFIL A 1
 		BFIL B 1 A_Punch
-		BFIL C 2
-		BFIL D 2
+		BFIL C 1
+		BFIL D 1
 		BFIL E 2 
 		BFIL EFGH 2
 		TNT1 A 0 A_Giveinventory("fisttoken")
@@ -44,10 +46,37 @@ ACTOR BPFist : BPWeapon
 	  Rightswing:
 		BFIR A 1
 		BFIR B 1 A_Punch
-		BFIR C 2
-		BFIR D 2
+		BFIR C 1
+		BFIR D 1
 		BFIR E 2 
 		BFIR EFGH 2
+		TNT1 A 0 A_Takeinventory("fisttoken")		
+		TNT1 A 0 A_ReFire
+		TNT1 A 3
+		BSOP B 1
+		Goto Ready
+	  //RRRAAAAAAAAAAARRRGGHHHHHH
+	  //WHAT YOU LOOKIN' AT?
+	  LeftSwingZerk:
+		TNT1 A 0 A_JumpifInventory("fisttoken",1,"RightSwingZerk")
+		BSTL A 1
+		BSTL B 1 A_Punch
+		BSTL C 2
+		BSTL D 2
+		BSTL E 2 
+		BSTL EFGH 2
+		TNT1 A 0 A_Giveinventory("fisttoken")
+		TNT1 A 0 A_ReFire
+		TNT1 A 3
+		BSOP B 1
+		Goto Ready
+	  RightSwingZerk:
+		BSTR A 1
+		BSTR B 1 A_Punch
+		BSTR C 2
+		BSTR D 2
+		BSTR E 2 
+		BSTR EFGH 2
 		TNT1 A 0 A_Takeinventory("fisttoken")		
 		TNT1 A 0 A_ReFire
 		TNT1 A 3
