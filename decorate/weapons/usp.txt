@@ -36,7 +36,7 @@ ACTOR BPPistol : BPWeapon replaces Pistol
 		Loop
 	Fire:
 		TNT1 A 0 A_Jumpifinventory("BPeeestolMag",1,1) //this part will check if the gun is empty and automatically reload if it is 
-		goto Reloading
+		goto Altfire
 		BPIS A 0 A_AlertMonsters
 		BPIS A 0 A_TakeInventory("BPeeestolMag",1)
 		BPIS B 2 BRIGHT A_FirePistol
