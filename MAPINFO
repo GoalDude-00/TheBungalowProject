@@ -1,4 +1,4 @@
-map MAP01 "carbonated beverage, pressurized"
+map MAP01 "entry simplex"
 {
    sky1 = "PLTSKY02"
    music = "DNKKNG2"
