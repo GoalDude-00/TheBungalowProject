@@ -11,3 +11,4 @@
 #include "decorate/weapons/AK5.txt"
 #include "decorate/weapons/rocketlauncher.txt"
 #include "decorate/weapons/HPG.txt"
+#include "decorate/weapons/bfug.txt"

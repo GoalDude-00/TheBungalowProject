@@ -1,0 +1,43 @@
+actor DemonBFG : BPWeapon replaces BFG9000
+{
+  Height 20
+  Weapon.SelectionOrder 2800
+  Weapon.AmmoUse 40
+  Weapon.AmmoGive 40
+  Weapon.Slotnumber 7
+  Weapon.AmmoType "Cell"
+  +WEAPON.NOAUTOFIRE
+  Inventory.PickupMessage "$GOTBFG9000"
+  Tag "$TAG_BFG9000"
+  States
+  {
+  Ready:
+    BFGI ABCDEFGH 4 A_WeaponReady
+    Loop
+  Deselect:
+    BFGI A 1 A_Lower
+    Loop
+  Select:
+    BFGI A 1 A_Raise
+    Loop
+  Fire:
+    BFGF A 4 A_BFGSound
+    BFGF B 4 BRIGHT A_GunFlash
+    BFGF C 4 BRIGHT A_GunFlash
+    BFGF DEFG 4 BRIGHT A_GunFlash
+	TNT1 A 0 A_FireBFG
+	BFGF H 4
+	BFGF IJL 8
+	TNT1 A 0 A_ReFire
+    Goto Ready
+  Spawn:
+    PICK H -1
+    Stop
+  OldFire:
+    BFGG A 10 A_BFGSound
+    BFGG BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 1 A_FireOldBFG
+    BFGG B 0 A_Light0
+    BFGG B 20 A_ReFire
+    Goto Ready
+  }
+}
