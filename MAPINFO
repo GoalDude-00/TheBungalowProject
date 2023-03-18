@@ -6,7 +6,7 @@ map MAP01 "entry simplex"
    next = "MAP02"
 } 
 
-map MAP02 "scrungo base 3"
+map MAP02 "scrungo treatment plant"
 {
    sky1 = "PLTSKY02"
    music = "BLOOD7"
