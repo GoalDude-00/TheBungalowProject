@@ -38,9 +38,9 @@ ACTOR BPHPG : BPWeapon replaces PlasmaRifle
 
 ACTOR BPPlasmaBall : PlasmaBall
 {
-	RenderStyle Normal
-	Alpha 1
+	Alpha 0.8
 	Scale 0.5
+	Renderstyle "Add"
 	SeeSound "weapons/plasmaf"
 	DeathSound "weapons/plasmax"
 	Obituary "$OB_HPG"
