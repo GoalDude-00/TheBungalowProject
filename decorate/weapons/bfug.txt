@@ -24,10 +24,12 @@ actor DemonBFG : BPWeapon replaces BFG9000
     BFGF A 4 A_BFGSound
     BFGF B 4 BRIGHT A_GunFlash
     BFGF C 4 BRIGHT A_GunFlash
-    BFGF DEFG 4 BRIGHT A_GunFlash
-	TNT1 A 0 A_FireBFG
-	BFGF H 4
-	BFGF IJL 8
+    BFGF DE 6 BRIGHT A_GunFlash
+	BFGF F 8 BRIGHT A_Gunflash
+	TNT1 A 0 A_FireCustomMissile("NewBFGBall")
+	BFGF G 2 BRIGHT A_Gunflash
+	BFGF HI 2
+	BFGF JL 8
 	TNT1 A 0 A_ReFire
     Goto Ready
   Spawn:
@@ -39,5 +41,39 @@ actor DemonBFG : BPWeapon replaces BFG9000
     BFGG B 0 A_Light0
     BFGG B 20 A_ReFire
     Goto Ready
+  }
+}
+
+actor NewBFGBall : BFGBALL
+{
+
+	States
+	{
+	
+  Spawn:
+    BFPG AB 4 Bright
+    Loop
+  Death:
+    BFPD AB 8 Bright
+    BFPD C 8 Bright A_BFGSpray("NewBFGExtra")
+    BFPD DEF 8 Bright
+    Stop	
+	
+	}
+
+}
+
+ACTOR NewBFGExtra : BFGExtra
+{
+  +NOBLOCKMAP
+  +NOGRAVITY
+  RenderStyle Add
+  Alpha 0.75
+  DamageType "BFGSplash"
+  States
+  {
+  Spawn:
+    BFD2 ABCD 8 Bright
+    Stop
   }
 }
