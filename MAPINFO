@@ -11,4 +11,12 @@ map MAP02 "scrungo treatment plant"
    sky1 = "PLTSKY02"
    music = "BLOOD7"
    cluster = 20
+   next = "MAP05"
+} 
+
+map MAP05 "five five five five five"
+{
+   sky1 = "PLTSKY02"
+   music = "PARADIM"
+   cluster = 20
 } 
