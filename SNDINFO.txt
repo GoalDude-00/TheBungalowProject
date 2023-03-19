@@ -8,3 +8,6 @@ DSMGGN2 DSMGGN2
 DSMGGN3 DSMGGN3
 
 $random weapons/chngun { DSMGGN1 DSMGGN2 DSMGGN3 }
+
+weapons/pistolr1 DSPISR1
+weapons/pistolr2 DSPISR2
