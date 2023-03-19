@@ -44,6 +44,7 @@ ACTOR BPPlasmaBall : PlasmaBall
 	SeeSound "weapons/plasmaf"
 	DeathSound "weapons/plasmax"
 	Obituary "$OB_HPG"
+	Decal "Scorch"
 	States
 	{
 	Spawn:
