@@ -22,6 +22,8 @@ credits:
 		Soldier of Fortune
 		S.T.A.L.K.E.R. - Shadow of Chernobyl
 		Quake 2
+		Counter Strike
+		Doom 3
 
 	mod team:
 
