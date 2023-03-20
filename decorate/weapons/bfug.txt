@@ -46,7 +46,7 @@ actor DemonBFG : BPWeapon replaces BFG9000
 
 actor NewBFGBall : BFGBALL
 {
-
+	Decal "BFGScorch"
 	States
 	{
 	
