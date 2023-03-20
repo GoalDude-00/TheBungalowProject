@@ -29,4 +29,12 @@ map MAP05 "five five five five five"
    sky1 = "PLTSKY02"
    music = "PARADIM"
    cluster = 20
+   next = "MAP06"
+} 
+
+map MAP06 "halfnium 3.6R"
+{
+   sky1 = "PLTSKY02"
+   music = "MECHMAN"
+   cluster = 20
 } 
