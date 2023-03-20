@@ -8,6 +8,7 @@ ACTOR BPAR : BPWeapon replaces Chaingun
 		Obituary "$OB_MPCHAINGUN"
 		Tag "$TAG_CHAINGUN"
 		Weapon.Slotnumber 4
+		Decal "Bulletchip"
    States
    {
       Select:

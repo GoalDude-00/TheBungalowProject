@@ -8,6 +8,7 @@ ACTOR BPShotgun : BPWeapon replaces Shotgun
 	Obituary "$OB_SPAS"
 	Tag "$TAG_SPAS"
 	weapon.slotnumber 3
+	Decal "Bulletchip"
 	States
 	{
 	Ready:

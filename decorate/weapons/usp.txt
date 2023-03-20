@@ -19,6 +19,7 @@ ACTOR BPPistol : BPWeapon replaces Pistol
 	+WEAPON.NOALERT //added for the reason of reloads
 	+WEAPON.ALLOW_WITH_RESPAWN_INVUL
 	Inventory.Pickupmessage "$GOT_USP"
+	Decal "Bulletchip"
 	weapon.slotnumber 2
 	Tag "$TAG_USP"
 	Radius 20
@@ -39,7 +40,7 @@ ACTOR BPPistol : BPWeapon replaces Pistol
 		goto Altfire
 		BPIS A 0 A_AlertMonsters
 		BPIS A 0 A_TakeInventory("BPeeestolMag",1)
-		BPIS B 2 BRIGHT A_FireBullets (3, 0, 1, 10, "BulletPuff")
+		BPIS B 2 BRIGHT A_FireBullets (3, 0, 1, 9, "BulletPuff")
 		TNT1 A 0 A_PlaySound("weapons/pistol", CHAN_WEAPON)
 		TNT1 A 0 A_GunFlash
 		BPIS CDE 1

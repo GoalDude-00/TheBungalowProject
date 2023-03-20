@@ -7,6 +7,7 @@ ACTOR BPSuperShotgun : BPWeapon replaces SuperShotgun
 	Inventory.PickupMessage "$GOT_SHORTY"
 	Obituary "$OB_SHORTY"
 	Tag "$TAG_SHORTY"
+	Decal "Bulletchip"
 	States
 	{
 	Ready:
