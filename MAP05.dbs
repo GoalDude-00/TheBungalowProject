@@ -7,7 +7,7 @@ maps
 	
 	MAP05
 	{
-		defaultwalltexture = "STARTAN2";
+		defaultwalltexture = "MARBFAC4";
 		overridemiddletexture = false;
 		defaultceiltexture = "FLOOR78";
 		overrideceiltexture = false;
@@ -17,8 +17,8 @@ maps
 		resources
 		{
 		}
-		viewpositiony = 826.6461f;
-		viewpositionx = -2358.044f;
+		viewpositiony = 985.7836f;
+		viewpositionx = 1176.991f;
 		
 		testprecommand
 		{
@@ -42,7 +42,7 @@ maps
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 5.021865f;
+		viewscale = 1.758293f;
 		
 		reloadresourceprecommand
 		{
@@ -50,9 +50,9 @@ maps
 			exitcodeiserror = true;
 			stderriserror = true;
 		}
-		defaulttoptexture = "STARTAN2";
+		defaulttoptexture = "MARBFAC4";
 		overridebottomtexture = false;
-		defaultbottomtexture = "STARTAN2";
+		defaultbottomtexture = "MARBFAC4";
 		defaultfloortexture = "MARBT05";
 		overrideceilheight = false;
 		overridebrightness = false;
