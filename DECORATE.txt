@@ -12,3 +12,6 @@
 #include "decorate/weapons/rocketlauncher.txt"
 #include "decorate/weapons/HPG.txt"
 #include "decorate/weapons/bfug.txt"
+
+//Props
+#include "decorate/props.txt"
