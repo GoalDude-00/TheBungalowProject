@@ -1,7 +1,7 @@
 map MAP01 "entry simplex"
 {
    sky1 = "PLTSKY02"
-   music = "DNKKNG2"
+   music = "BRKNECK"
    cluster = 20
    next = "MAP02"
 } 
