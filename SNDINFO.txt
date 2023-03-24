@@ -11,3 +11,8 @@ $random weapons/chngun { DSMGGN1 DSMGGN2 DSMGGN3 }
 
 weapons/pistolr1 DSPISR1
 weapons/pistolr2 DSPISR2
+
+staff/start DSELSTR
+staff/zap DSELCXP
+
+$limit staff/zap 0
