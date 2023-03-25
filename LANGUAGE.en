@@ -7,6 +7,7 @@ GOT_SPAS="You got the battle shotgun!";
 GOT_SHORTY="You got the shorty!";
 GOT_AK5="You got the battle rifle!";
 GOT_HPG="You got the hellish plasma gun!";
+GOT_BPDBFG="You got Bael's Wrath! Slaughter them all!";
 
 OB_BFIST="%o gave %k the stink eye, and then regrets it."; //poteto's obit
 OB_STAFF="%k gave %o the magic bonk.";
@@ -15,6 +16,7 @@ OB_SPAS="%o sold half of %p life at %k.";
 OB_SHORTY="%o got thwacked by %k's short stick.";
 OB_AK5="%o became swiss cheese thanks to %k.";
 OB_HPG="%o was turned into bread by %k.";
+OB_BPDBFG="%k has unleashed their wrath at %o.";
 
 TAG_STAFF="Enchanted Staff";
 TAG_USP="Battle Pistol";
@@ -22,6 +24,7 @@ TAG_SPAS="Battle Shotgun";
 TAG_SHORTY="Shorty";
 TAG_AK5="Battle Rifle";
 TAG_HPG="Hellish Plasma Gun";
+TAG_BPDBFG="Bael's Wrath";
 
 //strings to be held for review
 GOT_BROCKET="You got the assault rocket launcher!";

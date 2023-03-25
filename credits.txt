@@ -24,6 +24,7 @@ credits:
 		Quake 2
 		Counter Strike
 		Doom 3
+		Bejeweled 2
 
 	mod team:
 
@@ -35,6 +36,7 @@ credits:
 		Renegade4339 - Programmer (weapons)
 		DR_Cosmobyte - Sound Design
 		LossForWords - Sprite Artist
+		Ac!d - French Translation
 		JDRedAlert - TBA
 		XSlayer 300 - TBA
 		PotetoBloke - TBA
