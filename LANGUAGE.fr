@@ -6,6 +6,7 @@ GOT_SPAS = "Vous avez le fusil à pompe de combat !";
 GOT_SHORTY = "Vous avez le shorty !";
 GOT_AK5 = "Vous avez le fusil d’assaut de combat !";
 GOT_HPG = "Vous avez le fusil à plasma infernal !";
+GOT_BPDBFG = "Vous avez la Colère de Baël ! Abattez-les tous !";
 
 OB_BFIST = "%o a fait les yeux doux à %k, puis l'a regretté."; // nécro de poteto
 OB_STAFF = "%k a donné à %o le 'bonk' magique.";
@@ -21,6 +22,7 @@ TAG_SPAS = "Fusil de chasse";
 TAG_SHORTY = "Shorty";
 TAG_AK5 = "Fusil de combat";
 TAG_HPG = "Canon à plasma infernal";
+TAG_BPDBFG = "Colère de Baël";
 
 // WIP
 GOT_BROCKET = "Vous avez le lance-roquettes d'assaut !";
