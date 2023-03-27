@@ -47,7 +47,7 @@ actor BPStaff : BPWeapon replaces Chainsaw
 actor ZapPuff:BulletPuff{
 		-invisible +forcexybillboard +bloodlessimpact
 		+noblood -allowparticles +puffonactors +puffgetsowner +forceradiusdmg
-		+hittracer +painless +noclip
+		+hittracer +noclip
 	states{
 	spawn:
 		TNT1 A 0 nodelay A_CustomRailgun(0,0,None,"ff 55 88",
@@ -61,7 +61,7 @@ actor ZapPuff:BulletPuff{
 actor NoPuff:BulletPuff{
 		-invisible +forcexybillboard +bloodlessimpact
 		+noblood +alwayspuff -allowparticles +puffonactors +puffgetsowner +forceradiusdmg
-		+hittracer +painless
+		+hittracer
 	states{
 	spawn:
 		TNT1 A 1
