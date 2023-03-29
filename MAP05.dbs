@@ -16,9 +16,19 @@ maps
 		
 		resources
 		{
+			
+			resource0
+			{
+				type = 1;
+				location = "C:\\Users\\joble\\Documents\\GitHub\\TheBungalowProject";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
 		}
-		viewpositiony = -1509.059f;
-		viewpositionx = -1036.259f;
+		viewpositiony = 1801.99f;
+		viewpositionx = 1435.508f;
 		
 		testprecommand
 		{
@@ -38,11 +48,11 @@ maps
 			gridrotate = 0;
 			backscalex = 100;
 			gridoriginx = 0;
-			gridsize = 4;
+			gridsize = 16;
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 3.211836f;
+		viewscale = 0.6156274f;
 		
 		reloadresourceprecommand
 		{
@@ -73,6 +83,29 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				activetab = true;
+			}
 		}
 	}
 }
