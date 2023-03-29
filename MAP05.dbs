@@ -16,19 +16,9 @@ maps
 		
 		resources
 		{
-			
-			resource0
-			{
-				type = 1;
-				location = "C:\\Users\\joble\\Documents\\GitHub\\TheBungalowProject";
-				option1 = 0;
-				option2 = 0;
-				notfortesting = 0;
-				requiredarchives = "";
-			}
 		}
-		viewpositiony = 803.1332f;
-		viewpositionx = -1678.013f;
+		viewpositiony = 827.0704f;
+		viewpositionx = -927.4032f;
 		
 		testprecommand
 		{
@@ -52,7 +42,7 @@ maps
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 2.971494f;
+		viewscale = 2.285761f;
 		
 		reloadresourceprecommand
 		{
