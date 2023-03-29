@@ -45,6 +45,6 @@ map MAP05 "five five five five five"
 map MAP06 "halfnium 3.6R"
 {
    sky1 = "PLTSKY02"
-   music = "MECHMAN"
+   music = "TURRICAN"
    cluster = 20
 } 
