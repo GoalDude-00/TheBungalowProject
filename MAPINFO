@@ -11,8 +11,18 @@ map MAP02 "scrungo treatment plant"
    sky1 = "PLTSKY02"
    music = "BLOOD7"
    cluster = 20
-   next = "MAP04"
+   next = "MAP03"
 } 
+
+map MAP03 "Sigmassacure"
+{
+
+   sky1 = "PLTSKY02"
+   music = "D_COUNTD"
+   cluster = 20
+   next = "MAP04"
+
+}
 
 map MAP04 "marble madness"
 {
