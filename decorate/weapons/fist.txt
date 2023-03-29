@@ -83,3 +83,20 @@ ACTOR BPFist : BPWeapon
 		Goto Ready
   }
 }
+
+actor BungalowBerserk: Berserk replaces Berserk
+{
+		
+	States
+	{
+	  Spawn:
+		PSTR A -1
+		Stop	
+	  Pickup:
+		TNT1 A 0 A_GiveInventory("PowerStrength")
+		TNT1 A 0 HealThing(100, 0)
+		TNT1 A 0 A_SelectWeapon("BPFist")
+		Stop
+	}
+
+}
