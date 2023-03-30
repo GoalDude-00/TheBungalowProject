@@ -23,9 +23,9 @@ maps
 		}
 		defaultfloortexture = "METLT01";
 		defaultceiltexture = "FLAT1_1";
-		defaulttoptexture = "SUPPORT3";
-		defaultwalltexture = "SUPPORT3";
-		defaultbottomtexture = "SUPPORT3";
+		defaulttoptexture = "GSTONE1";
+		defaultwalltexture = "GSTONE1";
+		defaultbottomtexture = "GSTONE1";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -38,9 +38,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -2465.307f;
-		viewpositiony = -603.7778f;
-		viewscale = 0.4999906f;
+		viewpositionx = -320.6074f;
+		viewpositiony = 755.3974f;
+		viewscale = 0.1750606f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
