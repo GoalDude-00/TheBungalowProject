@@ -17,8 +17,8 @@ maps
 		resources
 		{
 		}
-		viewpositiony = -2323.158f;
-		viewpositionx = 895.8062f;
+		viewpositiony = -3785.386f;
+		viewpositionx = 275.6781f;
 		
 		testprecommand
 		{
@@ -42,7 +42,7 @@ maps
 			background = "";
 			backoffsety = 0;
 		}
-		viewscale = 0.1378574f;
+		viewscale = 0.3937344f;
 		
 		reloadresourceprecommand
 		{
