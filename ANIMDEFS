@@ -1,5 +1,22 @@
-switch SW1MET5 on sound Switch1 pic SW_1_DN tics 0
-switch SW2MET5 off sound Switch2 pic SW_1_UP tics 0
+//switches
 
-switch SW1SLIM on sound Switch1 pic SW_1_DN tics 0
-switch SW2SLIM off sound Switch2 pic SW_1_UP tics 0
+switch SW1MET5 on sound Switch1 pic SW2MET5 tics 0
+switch SW2MET5 off sound Switch2 pic SW1MET5 tics 0
+
+switch SW1SLIM on sound Switch1 pic SW2SLIM tics 0
+switch SW2SLIM off sound Switch2 pic SW1SLIM tics 0
+
+switch GOBS05 on sound Switch1 pic GOBS06 tics 0
+switch GOBS06 off sound Switch2 pic GOBS05 tics 0
+
+//texture
+
+texture EXITS2A range EXITS2B tics 8
+
+texture GOBS01 range GOBS03 tics 8 oscillate
+
+texture	LFALL1 range LFALL4 tics 8
+
+texture	MFALL1 range MFALL4 tics 8
+
+texture	WFALL1 range WFALL4 tics 8
