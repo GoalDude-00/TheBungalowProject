@@ -2,11 +2,11 @@
 //LANGUAGE!!!
 
 GOT_STAFF="An enchanted staff! Find some conductors.";
-GOT_USP="You got the battle pistol! ...isn't this your starting weapon already?";
-GOT_SPAS="You got the battle shotgun!";
-GOT_SHORTY="You got the shorty!";
-GOT_AK5="You got the battle rifle!";
-GOT_HPG="You got the hellish plasma gun!";
+GOT_USP="You got the Combat Pistol! ...isn't this your starting weapon already?";
+GOT_SPAS="You got the Battle Shotgun!";
+GOT_SHORTY="You got the Super Shorty!";
+GOT_AK5="You got the Assault Rifle!";
+GOT_HPG="You got the Astaroth!";
 GOT_BPDBFG="You got Bael's Wrath! Slaughter them all!";
 
 OB_BFIST="%o gave %k the stink eye, and then regrets it."; //poteto's obit
@@ -19,14 +19,14 @@ OB_HPG="%o was turned into bread by %k.";
 OB_BPDBFG="%k has unleashed their wrath at %o.";
 
 TAG_STAFF="Enchanted Staff";
-TAG_USP="Battle Pistol";
+TAG_USP="Combat Pistol";
 TAG_SPAS="Battle Shotgun";
-TAG_SHORTY="Shorty";
-TAG_AK5="Battle Rifle";
-TAG_HPG="Hellish Plasma Gun";
+TAG_SHORTY="Super Shorty";
+TAG_AK5="Assault Rifle";
+TAG_HPG="Astaroth";
 TAG_BPDBFG="Bael's Wrath";
 
 //strings to be held for review
-GOT_BROCKET="You got the assault rocket launcher!";
+GOT_BROCKET="You got the Rocket Launcher!";
 OB_BROCKET="%o was STILL splattered by %k's rocket.";
-TAG_BROCKET="Assault Rocket Launcher";
+TAG_BROCKET="Rocket Launcher";

@@ -15,9 +15,11 @@ actor BPRocketLauncher : BPWeapon replaces rocketlauncher
     Loop
   Deselect:
     BGRL A 1 A_Lower
+	BGRL A 0 A_Lower
     Loop
   Select:
     BGRL A 1 A_Raise
+	BGRL A 0 A_Raise
     Loop
   Fire:
     BGRL B 2 BRIGHT A_GunFlash

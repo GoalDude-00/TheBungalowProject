@@ -13,9 +13,11 @@ ACTOR BPHPG : BPWeapon replaces PlasmaRifle
 		Loop
 	Deselect:
 		BGPI A 1 A_Lower
+		BGPI A 0 A_Lower
 		Loop
 	Select:
 		BGPI A 1 A_Raise
+		BGPI A 0 A_Raise
 		Loop
 	Fire:
 		BGPF A 0 A_GunFlash

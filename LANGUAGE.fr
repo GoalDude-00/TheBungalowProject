@@ -2,10 +2,10 @@
 
 GOT_STAFF = "Un bâton enchanté ! Trouvez des conducteurs.";
 GOT_USP = "Vous avez le pistolet de combat ! ...ce n'est pas déjà votre arme de départ ?";
-GOT_SPAS = "Vous avez le fusil à pompe de combat !";
-GOT_SHORTY = "Vous avez le shorty !";
-GOT_AK5 = "Vous avez le fusil d’assaut de combat !";
-GOT_HPG = "Vous avez le fusil à plasma infernal !";
+GOT_SPAS = "Vous avez le fusil à pompe de combat!";
+GOT_SHORTY = "Vous avez le super shorty!";
+GOT_AK5 = "Vous avez le fusil d’assaut de combat!";
+GOT_HPG = "Vous avez le fusil à Astaroth!";
 GOT_BPDBFG = "Vous avez la Colère de Baël ! Abattez-les tous !";
 
 OB_BFIST = "%o a fait les yeux doux à %k, puis l'a regretté."; // nécro de poteto

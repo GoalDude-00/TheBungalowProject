@@ -13,9 +13,11 @@ ACTOR BPAR : BPWeapon replaces Chaingun
    {
       Select:
 		BGAR A 1 A_Raise
+		BGAR A 0 A_Raise
 		Loop
 	  Deselect:
 		BGAR A 1 A_Lower
+		BGAR A 0 A_Lower
 		Loop
 	  Ready:
 		BGAR A 1 A_WeaponReady(WRF_AllOWRELOAD)

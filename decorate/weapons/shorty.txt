@@ -15,9 +15,11 @@ ACTOR BPSuperShotgun : BPWeapon replaces SuperShotgun
 		Loop
 	Deselect:
 		BSSI A 1 A_Lower
+		BSSI A 0 A_Lower
 		Loop
 	Select:
 		BSSI A 1 A_Raise
+		BSSI A 0 A_Raise
 		Loop
 	Fire:
 		BSSF A 0 A_FireShotgun2

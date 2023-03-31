@@ -23,9 +23,11 @@ ACTOR BPFist : BPWeapon
     Loop
   Deselect:
     BSOP A 1 A_Lower
+	BSOP A 0 A_Lower
     Loop
   Select:
     BSOP A 1 A_Raise
+	BSOP A 0 A_Raise
     Loop
   Fire:
 	  LeftSwing:
