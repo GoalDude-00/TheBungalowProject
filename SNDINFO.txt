@@ -16,3 +16,9 @@ staff/start DSELSTR
 staff/zap DSELCXP
 
 $limit staff/zap 0
+
+$random weapons/plasmaf { DSPLASM1 DSPLASM2 DSPLASM3 }
+
+DSPLASM1 DSPLASM1
+DSPLASM2 DSPLASM2
+DSPLASM3 DSPLASM3
