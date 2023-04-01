@@ -18,7 +18,7 @@ map MAP03 "Sigmassacure"
 {
 
    sky1 = "PLTSKY02"
-   music = "D_COUNTD"
+   music = "PUPPIES"
    cluster = 20
    next = "MAP04"
 
