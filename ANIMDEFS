@@ -11,7 +11,7 @@ switch GOBS06 off sound Switch2 pic GOBS05 tics 0
 
 //texture
 
-texture EXITS2A range EXITS2B tics 8
+texture EXITS2A range EXITS2B tics 16
 
 texture GOBS01 range GOBS03 tics 8 oscillate
 
