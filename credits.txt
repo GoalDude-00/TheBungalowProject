@@ -12,8 +12,12 @@ credits:
 	textures:
 
 		mechadon - skies
+		Realm 667 - Potpourri textures pack
+		
 
 	music:
+		Map 01: Music track 04 from Breakneck
+		Map 06: Level 5-1from Turrican 2
 		
 
 	sounds:
