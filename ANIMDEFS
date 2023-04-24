@@ -9,6 +9,9 @@ switch SW2SLIM off sound Switch2 pic SW1SLIM tics 0
 switch GOBS05 on sound Switch1 pic GOBS06 tics 0
 switch GOBS06 off sound Switch2 pic GOBS05 tics 0
 
+switch SW1S3125 on sound Switch1 pic SW2S3125 tics 0
+switch SW2S3125 off sound Switch2 pic SW1S3125 tics 0
+
 //texture
 
 texture EXITS2A range EXITS2B tics 16
