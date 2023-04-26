@@ -40,6 +40,7 @@ map MAP05 "five five five five five"
    music = "PARADIM"
    cluster = 20
    next = "MAP06"
+   secretnext = "MAP31"
 } 
 
 map MAP06 "halfnium 3.6R"
@@ -47,4 +48,12 @@ map MAP06 "halfnium 3.6R"
    sky1 = "PLTSKY02"
    music = "TURRICAN"
    cluster = 20
+} 
+
+map MAP31 "azure haze"
+{
+   sky1 = "HDRKSKY1"
+   music = "PLASMA"
+   cluster = 30
+   next = "MAP06"
 } 
