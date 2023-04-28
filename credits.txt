@@ -16,8 +16,9 @@ credits:
 		
 
 	music:
-		Map 01: Music track 04 from Breakneck
-		Map 06: Level 5-1from Turrican 2
+		Map 01 (BRKNECK): Music track 04 from Breakneck
+		Map 06 (TURRICAN): Level 5-1 from Turrican 2
+		Map 31 (PLASMA): Plasmatic Logic, composed by Immorpher
 		
 
 	sounds:
