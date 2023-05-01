@@ -50,6 +50,16 @@ map MAP06 "halfnium 3.6R"
    cluster = 20
 } 
 
+map MAP10 "octagon of destruction"
+{
+
+   sky1 = "PLTSKY02"
+   music = "PRESSPNT"
+   cluster = 21
+   //next = "MAP11"
+
+}
+
 map MAP31 "azure haze"
 {
    sky1 = "HDRKSKY1"
