@@ -11,8 +11,8 @@ maps
 		resources
 		{
 		}
-		defaultfloortexture = "MARBT05";
-		defaultceiltexture = "MARBT05";
+		defaultfloortexture = "MARB256B";
+		defaultceiltexture = "MARB256A";
 		defaulttoptexture = "GSTONE1";
 		defaultwalltexture = "GSTONE1";
 		defaultbottomtexture = "GSTONE1";
@@ -28,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = 4557.587f;
-		viewpositiony = -2272.318f;
-		viewscale = 0.02856081f;
+		viewpositionx = 51.68475f;
+		viewpositiony = -502.6628f;
+		viewscale = 0.2329804f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -41,7 +41,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8;
+			gridsize = 4;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
