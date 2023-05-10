@@ -5,17 +5,17 @@ strictpatches = 0;
 maps
 {
 	
-	MAP10
+	MAP15
 	{
 		
 		resources
 		{
 		}
-		defaultfloortexture = "METEDGFL";
-		defaultceiltexture = "METEDGFL";
-		defaulttoptexture = "STARTAN2";
-		defaultwalltexture = "STARTAN2";
-		defaultbottomtexture = "STARTAN2";
+		defaultfloortexture = "MARB256B";
+		defaultceiltexture = "MARB256A";
+		defaulttoptexture = "GSTONE1";
+		defaultwalltexture = "GSTONE1";
+		defaultbottomtexture = "GSTONE1";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -28,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
-		viewpositionx = -990.5092f;
-		viewpositiony = 335.5305f;
-		viewscale = 0.2275825f;
+		viewpositionx = -405.3652f;
+		viewpositiony = 796.5682f;
+		viewscale = 0.08157263f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -41,7 +41,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 16;
+			gridsize = 4;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -74,51 +74,76 @@ maps
 			exitcodeiserror = true;
 			stderriserror = true;
 		}
+	}
+	
+	MAP10
+	{
+		defaultwalltexture = "GSTONE1";
+		overridemiddletexture = false;
+		defaultceiltexture = "MARB256A";
+		overrideceiltexture = false;
+		custombrightness = 196;
+		scriptcompiler = "zdoom_acs.cfg";
 		
-		plugins
+		resources
 		{
-			
-			stairsectorbuilder
-			{
-				
-				prefabs
-				{
-					
-					prefab1
-					{
-						name = "[Previous]";
-						numberofsectors = 8;
-						outervertexmultiplier = 1;
-						innervertexmultiplier = 1;
-						stairtype = 0;
-						sectordepth = 16;
-						spacing = 0;
-						frontside = true;
-						singlesectors = false;
-						distinctsectors = false;
-						singledirection = false;
-						distinctbaseheights = false;
-						flipping = 0;
-						numberofcontrolpoints = 1;
-						applyfloormod = true;
-						floormod = 16;
-						applyceilingmod = true;
-						ceilingmod = 0;
-						applyfloortexture = false;
-						floortexture = "";
-						applyceilingtexture = false;
-						ceilingtexture = "";
-						applyuppertexture = true;
-						uppertexture = "-";
-						upperunpegged = true;
-						applymiddletexture = false;
-						middletexture = "-";
-						applylowertexture = true;
-						lowertexture = "STEP5";
-						lowerunpegged = true;
-					}
-				}
-			}
+		}
+		viewpositiony = -533.0283f;
+		viewpositionx = 1187.828f;
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		customceilheight = 128;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 32;
+			background = "";
+			backoffsety = 0;
+		}
+		viewscale = 0.2117532f;
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		defaulttoptexture = "GSTONE1";
+		overridebottomtexture = false;
+		defaultbottomtexture = "GSTONE1";
+		defaultfloortexture = "MARB256B";
+		overrideceilheight = false;
+		overridebrightness = false;
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		overridefloorheight = false;
+		overridetoptexture = false;
+		uselongtexturenames = false;
+		overridefloortexture = false;
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 	}
 }

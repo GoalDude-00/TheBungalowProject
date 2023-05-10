@@ -48,10 +48,10 @@ map MAP06 "halfnium 3.6R"
    sky1 = "PLTSKY02"
    music = "TURRICAN"
    cluster = 20
-   next = "MAP15"
+   next = "MAP10"
 } 
 
-map MAP15 "throne of the dead"
+map MAP10 "throne of the dead"
 {
 
    sky1 = "PLTSKY02"
