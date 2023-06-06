@@ -12,12 +12,15 @@ actor BPDemonBFG : BPWeapon replaces BFG9000
   States
   {
   Ready:
+    TNT1 A 0 A_Playsound("bfg/idle",CHAN_WEAPON,0.7,1)
     BFGI ABCDEFGH 4 A_WeaponReady
     Loop
   Deselect:
+    TNT1 A 0 A_STOPSOUND(CHAN_WEAPON)
     BFGI A 1 A_Lower
     Loop
   Select:
+    TNT1 A 0 A_STOPSOUND(CHAN_WEAPON)
     BFGI A 1 A_Raise
     Loop
   Fire:
