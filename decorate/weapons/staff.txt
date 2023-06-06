@@ -26,6 +26,7 @@ actor BPStaff : BPWeapon replaces Chainsaw
 	BSTF B 0 A_PlaySound("staff/start",CHAN_WEAPON)
 	BSTF BC 2
   Hold:
+	TNT1 A 0 A_Playsound("staff/loop",CHAN_WEAPON,1.0,1)
     BSTF D 0 A_Saw("","",0,"ZapPuff")
     BSTF DDDD 1 A_CustomRailgun(0,0,None,"ff 55 88",
 					RGF_CENTERZ|RGF_SILENT|RGF_NOPIERCING|RGF_FULLBRIGHT,0,50.0,"NoPuff",0,0,64,1,0.2)
@@ -39,6 +40,9 @@ actor BPStaff : BPWeapon replaces Chainsaw
 	BSTF GGBB 1 A_CustomRailgun(0,0,None,"ff 55 88",
 					RGF_CENTERZ|RGF_SILENT|RGF_NOPIERCING|RGF_FULLBRIGHT,
 					0,50.0,"NoPuff",0,0,64,18,0.2,1.0)
+	TNT1 A 0 A_REFIRE
+	TNT1 A 0 A_Stopsound(CHAN_WEAPON)
+	TNT1 A 0 A_Playsound("staff/end",CHAN_AUTO)
     Goto Ready
   Spawn:
     PICK A -1
