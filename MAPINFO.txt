@@ -1,0 +1,70 @@
+map MAP01 "entry simplex"
+{
+   sky1 = "PLTSKY02"
+   music = "BRKNECK"
+   cluster = 20
+   next = "MAP02"
+} 
+
+map MAP02 "scrungo treatment plant"
+{
+   sky1 = "PLTSKY02"
+   music = "BLOOD7"
+   cluster = 20
+   next = "MAP03"
+} 
+
+map MAP03 "Sigmassacure"
+{
+
+   sky1 = "PLTSKY02"
+   music = "PUPPIES"
+   cluster = 20
+   next = "MAP04"
+
+}
+
+map MAP04 "marble madness"
+{
+
+   sky1 = "PLTSKY02"
+   music = "D_HGHLND"
+   cluster = 20
+   next = "MAP05"
+
+}
+
+map MAP05 "five five five five five"
+{
+   sky1 = "PLTSKY02"
+   music = "PARADIM"
+   cluster = 20
+   next = "MAP06"
+   secretnext = "MAP31"
+} 
+
+map MAP06 "halfnium 3.6R"
+{
+   sky1 = "PLTSKY02"
+   music = "TURRICAN"
+   cluster = 20
+   next = "MAP10"
+} 
+
+map MAP10 "marble mausoleum"
+{
+
+   sky1 = "PLTSKY02"
+   music = "DNKKNG2"
+   cluster = 21
+   //next = "MAP11"
+
+}
+
+map MAP31 "azure haze"
+{
+   sky1 = "HDRKSKY1"
+   music = "PLASMA"
+   cluster = 30
+   next = "MAP06"
+} 
